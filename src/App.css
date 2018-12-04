@@ -1,0 +1,71 @@
+body {
+  background: #e5ded8;
+  box-sizing: border-box;
+  font-family: "adelle-sans", sans-serif;
+  font-weight: 100;
+}
+
+.App {
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+}
+
+
+.container {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: hsla(0, 0, 0, .2) 0 4px 2px -2px;
+  font-family: "adelle-sans", sans-serif;
+  font-weight: 100;
+  margin: 48px auto;
+  width: 40rem;
+  
+}
+
+.container a {
+  color: #4d4dff;
+}
+
+.body {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.title h1 a {
+  color: #333;
+  font-weight: 100;
+}
+
+.summary p {
+  color: lighten(#333, 10%);
+}
+
+.search-container {
+    padding-top: 64px;
+  }
+  
+  
+.search-input {
+  width: 180px;
+  height: 30px;
+  background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 2px 5px;
+    font-size: 18px;
+}
+
+.btn{
+  width: 80px;
+    height: 30px;
+    position: relative;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 50px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 1em;
+    cursor: pointer;
+    overflow: hidden;
+}
